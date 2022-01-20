@@ -21,7 +21,7 @@ You can also see a [live and deployed app which uses the model]() (note: this ma
 ## What's in this repo?
 
 * Notebooks with 00-10 are all the steps I took to train the full model, largely unchanged from when I originally wrote them.
-  * For a cleaned up version, see the [example Colab Notebook](https://colab.research.google.com/drive/1BRiFBC06OmWNkH4VpPl8Sf7IT21w7vXr).
+  * For a cleaned up version, see the [example Colab Notebook](https://colab.research.google.com/drive/1gQ8Z2UXYiyQWg7LhfsBuvfO01qLT4eOe).
 * `preprocessing.py` contains the preprocessing functions for turning [Open Images images & labels](https://storage.googleapis.com/openimages/web/index.html) into [Detectron2 style](https://detectron2.readthedocs.io/tutorials/datasets.html).
 * `downloadOI.py` is a slightly modified downloader script from [LearnOpenCV](https://www.learnopencv.com/fast-image-downloader-for-open-images-v4/) which downloads only certain classes of images from Open Images, example:
 
