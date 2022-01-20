@@ -17,3 +17,17 @@ Original inspiration was drawn from the article [Amenity Detection and Beyond â€
 To see the major pieces of the puzzle (data downloading, preprocessing, modelling), check out the [example Colab Notebook](https://colab.research.google.com/drive/1gQ8Z2UXYiyQWg7LhfsBuvfO01qLT4eOe).
 
 You can also see a [live and deployed app which uses the model]() (note: this may have been taken down by the time you check it due to costs, an extension would be finding a way to deply the model for little to no costs).
+
+## What's in this repo?
+
+* Notebooks with 00-10 are all the steps I took to train the full model, largely unchanged from when I originally wrote them.
+  * For a cleaned up version, see the [example Colab Notebook](https://colab.research.google.com/drive/1BRiFBC06OmWNkH4VpPl8Sf7IT21w7vXr).
+* `preprocessing.py` contains the preprocessing functions for turning [Open Images images & labels](https://storage.googleapis.com/openimages/web/index.html) into [Detectron2 style](https://detectron2.readthedocs.io/tutorials/datasets.html).
+* `downloadOI.py` is a slightly modified downloader script from [LearnOpenCV](https://www.learnopencv.com/fast-image-downloader-for-open-images-v4/) which downloads only certain classes of images from Open Images, example:
+
+```
+# Download only images from the Kitchen & dining room table class from Open Images validation set
+!python3 downloadOI.py --dataset "validation" --classes "Kitchen & dining room table"
+```
+* `app` contains a Python script with a [Streamlit](https://www.streamlit.io) app built around the model, if you can see the live version, Streamlit is what I used to build it.
+* `custom_images` contains a series of different images related to the project, including various rooms around my house to test the model.
