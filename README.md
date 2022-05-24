@@ -1,6 +1,6 @@
 # Replicating Airbnb's Amenity Detection with Detectron2 👁 🛏
 
-This repository contains all the code from a project () to replicate Airbnb's amenity detection using [Detectron2](https://github.com/facebookresearch/detectron2).
+This repository contains all the code from a project https://www.notion.so/Replicating-Airbnb-s-Object-Detection-Pipeline-Project-27e6744573034e7d99e0edd45f2e4add to replicate Airbnb's amenity detection using [Detectron2](https://github.com/facebookresearch/detectron2).
 
 ![example of how amenities might be detected in an image](https://raw.githubusercontent.com/parthamehta123/airbnb-amenity-detection/master/custom_images/airbnb-amenity-detection-workflow-large.png)
 
@@ -16,7 +16,7 @@ Original inspiration was drawn from the article [Amenity Detection and Beyond �
 
 To see the major pieces of the puzzle (data downloading, preprocessing, modelling), check out the [example Colab Notebook](https://colab.research.google.com/drive/1gQ8Z2UXYiyQWg7LhfsBuvfO01qLT4eOe).
 
-You can also see a [live and deployed app which uses the model]() (note: this may have been taken down by the time you check it due to costs, an extension would be finding a way to deply the model for little to no costs).
+You can also see a [live and deployed app which uses the model](https://airbnb-amenity-detection.appspot.com/) (note: this may have been taken down by the time you check it due to costs, an extension would be finding a way to deply the model for little to no costs).
 
 ## What's in this repo?
 
